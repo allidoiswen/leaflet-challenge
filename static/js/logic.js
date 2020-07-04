@@ -14,9 +14,9 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: API_KEY
 }).addTo(myMap);
   
-// var newtry = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson";
+var newtry = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson";
 // var newtry = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
-var newtry = "static/data/sampleData.geojson"
+// var newtry = "static/data/sampleData.geojson"
 
 // Create a color scale
 function magColorScale(arg) {
