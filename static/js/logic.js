@@ -83,7 +83,7 @@ d3.json(newtry).then(function(response) {
         for (var i = 0; i < magLevels.length; i++) {
             div.innerHTML +=
                 '<i style="background:' + magColorScale(magLevels[i]) + '"></i> ' +
-                magLevels[i] + (magLevels[i + 1] ? '&ndash;' + magLevels[i + 1] + '<br>' : '+');
+                magLevels[i] + (magLevels[i + 1] ? '&ndash;' + magLevels[i + 1] + ' <br>' : '+');
         }
 
         return div;

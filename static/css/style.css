@@ -6,6 +6,7 @@ body {
 .legend {
   line-height: 18px;
   color: #555;
+  background-color: #FFFFFF;
 }
 .legend i {
   width: 18px;
